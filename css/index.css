@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Reddit Sans", sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #efefef;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: antiquewhite;
+    border-radius: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.content {
+    padding: 10px 30px;
+}
+
+.about_me_section {
+    margin-bottom: 30px;
+}
+
+
+.about_me_content {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.about_me_image {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.about_me_text {
+    font-size: medium;
+}
+
+.my_music_content {
+    margin-top: 10px;
+}
+
+.items {
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease 0s;
+    background: #f1f3f4;
+    border: whitesmoke solid 1px;
+    border-radius: 30px;
+    width: max-content;
+    height: auto;
+}
+
+.item:hover {
+    transform: scale(1.1);
+}
+
+.item_image {
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+
+}
+
+.item_audio {
+    width: 250px;
+}
+
+.song_title {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2b3cb5;
+}
+
+

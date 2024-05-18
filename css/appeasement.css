@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Reddit Sans", sans-serif
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.content {
+    padding: 10px 30px;
+}
+
+.title_text {
+    margin-bottom: 15px;
+}
+
+.section:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.about_track {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.img {
+    border-radius: 30px;
+    max-height: 250px;
+    margin-right: 20px;
+}
+
+.text_about p:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.info {
+    margin-left: 2px;
+    color: #8e8e8e;
+}
+
+.platform {
+    width: max-content;
+    transition: all .3s ease 0s;
+    display: flex;
+    align-items: center;
+}
+
+.platform:hover {
+    transform: scale(1.1);
+}
+
+.platform_icon {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.platform_text {
+    transition: all .3s ease 0s;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.platform_text:hover {
+    color: lightcoral;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links div:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.back_button {
+    margin-top: 30px;
+    transition: all .3s ease 0s;
+    cursor: pointer;
+    display: flex;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 8px;
+    border-radius: 20px;
+    border: none;
+}
+
+.back_button:hover {
+    transform: scale(1.1);
+}
+
+.back_icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 3px;
+}
+
+.back_link {
+    font-size: medium;
+}
